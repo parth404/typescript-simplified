@@ -1,11 +1,11 @@
 // Using Type Alias
-type Address = {
+export type Address = {
   street: string;
   city: string;
   country: string;
 };
 
-type Person = {
+export type Person = {
   name: string;
   age: number;
   hobbies: string[];
@@ -13,13 +13,13 @@ type Person = {
 };
 
 // Using Interface
-interface IAddress {
+export interface IAddress {
   street: string;
   city: string;
   country: string;
 }
 
-interface IPerson {
+export interface IPerson {
   name: string;
   age: number;
   hobbies: string[];
