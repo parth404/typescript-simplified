@@ -1,5 +1,5 @@
 {
-  "name": "typescript-simplified",
+  "name": "migrate-js-to-ts",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -13,7 +13,7 @@
     "vite": "^5.3.4"
   },
   "dependencies": {
-    "date-fns": "^3.6.0",
+    "@types/lodash": "^4.17.7",
     "lodash": "^4.17.21"
   }
 }

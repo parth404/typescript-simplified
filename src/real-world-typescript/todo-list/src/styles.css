@@ -1,0 +1,77 @@
+#new-todo-form {
+    display: flex;
+    flex-direction: column;
+    background-color: #f0f8ff;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 400px; /* Set a suitable width */
+    margin: 0 auto; /* Center the form horizontally */
+  }
+  
+  #new-todo-form > * {
+    margin: 0.5rem 0;
+  }
+  
+  #list {
+    padding: 0;
+    margin-top: 1rem;
+    width: 400px; /* Set a suitable width */
+    margin: 0 auto; /* Center the list horizontally */
+  }
+  
+  .list-item {
+    list-style: none;
+    background-color: #ffffff;
+    padding: 0.75rem;
+    border-radius: 4px;
+    margin-bottom: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .list-item-label:hover,
+  .label-input:hover {
+    cursor: pointer;
+  }
+  
+  .list-item-label:hover > .label-text {
+    color: #ff6347;
+    text-decoration: line-through;
+  }
+  
+  .label-input:checked ~ .label-text {
+    text-decoration: line-through;
+    color: #d3d3d3;
+  }
+  
+  .delete-btn {
+    margin-left: 0.5rem;
+    background-color: #ff6347;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    padding: 0.25rem 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .delete-btn:hover {
+    background-color: #ff4500;
+  }
+  
+  button {
+    cursor: pointer;
+    background-color: #4682b4;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #4169e1;
+  }
